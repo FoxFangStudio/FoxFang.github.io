@@ -59,16 +59,14 @@ main {
 }
 
 .game-image-large {
-  width: 100%;
-  max-width: 350px; /* half size */
+  width: 300px;   /* fixed smaller size */
   display: block;
   margin: 0 auto 25px auto;
   border-radius: 12px;
 }
 
 .game-image {
-  width: 100%;
-  max-width: 300px; /* half size */
+  width: 250px;   /* smaller tutorial image */
   display: block;
   margin: 30px auto 15px auto;
   border-radius: 12px;
