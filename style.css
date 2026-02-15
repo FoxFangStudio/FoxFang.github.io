@@ -58,10 +58,9 @@ main {
   border-radius: 8px;
 }
 
-/* Game Images */
 .game-image-large {
   width: 100%;
-  max-width: 700px;
+  max-width: 350px; /* half size */
   display: block;
   margin: 0 auto 25px auto;
   border-radius: 12px;
@@ -69,7 +68,7 @@ main {
 
 .game-image {
   width: 100%;
-  max-width: 600px;
+  max-width: 300px; /* half size */
   display: block;
   margin: 30px auto 15px auto;
   border-radius: 12px;
