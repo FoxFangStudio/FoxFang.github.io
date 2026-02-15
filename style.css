@@ -57,3 +57,36 @@ main {
   padding: 30px;
   border-radius: 8px;
 }
+
+/* Game Images */
+.game-image-large {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto 25px auto;
+  border-radius: 12px;
+}
+
+.game-image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 30px auto 15px auto;
+  border-radius: 12px;
+}
+
+/* Notice Text */
+.notice-text {
+  text-align: center;
+  font-size: 18px;
+  color: #ff6666;
+  margin-bottom: 40px;
+}
+
+/* Release Text */
+.release-text {
+  text-align: center;
+  font-size: 18px;
+  color: #66ff99;
+  margin-bottom: 20px;
+}
