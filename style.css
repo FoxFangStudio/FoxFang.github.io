@@ -110,3 +110,21 @@ main {
   margin: 0;
   color: #cccccc;
 }
+
+/* Mobile responsiveness for feature rows */
+@media (max-width: 700px) {
+  .feature-row {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .feature-row img {
+    width: 80%;
+    max-width: 320px;
+  }
+
+  .feature-text {
+    width: 100%;
+  }
+}
