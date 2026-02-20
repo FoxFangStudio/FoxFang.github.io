@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Contact - FoxFangStudios</title>
-<link rel="stylesheet" href="style.css?v=15" />
+  <title>Contact - FoxFang Studios</title>
+  <link rel="stylesheet" href="style.css?v=18" />
 </head>
 <body>
 
-  <header class="top-banner">
-    <div class="banner-content">
-      <h1>FoxFang Studios</h1>
-      <p>Indie game dev projects and demos.</p>
-    </div>
-  </header>
+<header class="top-banner">
+  <div class="banner-content">
+    <h1>FoxFang Studios</h1>
+    <p>Indie game dev projects and demos.</p>
+  </div>
+</header>
 
 <nav class="nav-bar">
   <div class="nav-content">
@@ -25,16 +25,49 @@
   </div>
 </nav>
 
-  <main>
-    <h2>Contact Us</h2>
-    <p>If you have any questions about our games, collaborations, or business inquiries, feel free to reach out.</p>
+<main>
 
-    <p>Email: <strong>FoxFangStudio@gmail.com</strong></p>
-    <p>Discord: <strong>Kenoji</strong>
+  <img src="Images/HelloClear.gif" alt="Hello Animation" class="page-gif">
 
-    <p>We aim to respond within 48 hours.</p>
-     <img src="Images/HelloClear.gif" alt="Hello Animation" class="page-gif">
-  </main>
+  <h2>Contact</h2>
+  <p>If you have questions about our games, collaborations, or business inquiries, send a message below.</p>
+
+  <form class="contact-form"
+        action="https://formsubmit.co/FoxFangStudio@gmail.com"
+        method="POST">
+
+    <!-- Required Hidden Fields -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="New Message from FoxFang Studios Website">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="https://foxfangstudio.github.io/contact.html">
+
+    <div class="form-row">
+      <label for="senderName">Name (optional)</label>
+      <input type="text" id="senderName" name="senderName" placeholder="Your name">
+    </div>
+
+    <div class="form-row">
+      <label for="senderEmail">Email (optional)</label>
+      <input type="email" id="senderEmail" name="senderEmail" placeholder="you@example.com">
+    </div>
+
+    <div class="form-row">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+    </div>
+
+    <button type="submit" class="send-btn">Send Message</button>
+
+  </form>
+
+  <p style="margin-top:20px;">
+    You can also email us directly at
+    <strong>FoxFangStudio@gmail.com</strong><br>
+    Discord: <strong>Kenoji</strong>
+  </p>
+
+</main>
 
 </body>
 </html>
