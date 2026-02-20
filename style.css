@@ -160,3 +160,8 @@ main {
   margin: 0 auto 30px auto;
   border-radius: 12px;
 }
+
+.contact-form {
+  max-width: 900px; /* wider form */
+  margin: 0 auto;
+}
